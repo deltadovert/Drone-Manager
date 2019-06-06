@@ -66,7 +66,7 @@ unsigned int DronesManager::search(DroneRecord value) const {
 
 void DronesManager::print() const {
 	DroneRecord* curr = first;
-	cout << setw(15) << "Drone ID" << endl;
+	cout << setw(10) << "Drone ID" << endl;
 	for(int i = 0; i < size; i++)
 	{
 		cout << setw(4) << i << setw(10) << *curr.droneID << endl;
