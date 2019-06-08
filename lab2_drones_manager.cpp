@@ -75,6 +75,7 @@ void DronesManager::print() const {
 }
 
 bool DronesManager::insert(DroneRecord value, unsigned int index) {
+	++size;
 	return false;
 }
 
